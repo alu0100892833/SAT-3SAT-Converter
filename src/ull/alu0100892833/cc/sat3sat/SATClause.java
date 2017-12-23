@@ -21,12 +21,32 @@ public class SATClause {
                 variables.add(new SATVariable(temp));
     }
 
+    public ArrayList<SATVariable> getVariables() {
+        return variables;
+    }
+
+    public int getSize() {
+        return variables.size();
+    }
+
     public SATClause() {
         variables = new ArrayList<>();
     }
 
     public void addVariable(SATVariable var) {
         variables.add(var);
+    }
+
+    @Override
+    public String toString() {
+        String output = "{";
+        for (int i = 0; i < variables.size(); i++) {
+            output += variables.get(i);
+            if (i != variables.size() - 1)
+                output += ", ";
+        }
+        output += "}";
+        return output;
     }
 
 
