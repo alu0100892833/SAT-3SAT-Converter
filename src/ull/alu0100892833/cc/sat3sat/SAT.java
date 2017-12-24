@@ -15,9 +15,12 @@ public class SAT {
     public SAT() {
         identifier = "";
         clauses = new ArrayList<>();
+        SATClause.resetNewVarCount();
     }
 
     public SAT(String description) {
+        SATClause.resetNewVarCount();
+        clauses = new ArrayList<>();
         ArrayList<String> expression = tokenizeExpression(description);
         identifier = expression.get(0);
         for (int iterator = 1; iterator < expression.size(); iterator++)
@@ -30,7 +33,7 @@ public class SAT {
         while (str.hasMoreElements()) {
             String element = (String) str.nextElement();
             if (!element.trim().equals(""))
-                tokenized.add((String) str.nextElement());
+                tokenized.add(element);
         }
         return tokenized;
     }
@@ -45,6 +48,10 @@ public class SAT {
 
     public ArrayList<SATClause> getClauses() {
         return clauses;
+    }
+
+    protected void setClauses(ArrayList<SATClause> set) {
+        clauses = set;
     }
 
     public String getUSet() {

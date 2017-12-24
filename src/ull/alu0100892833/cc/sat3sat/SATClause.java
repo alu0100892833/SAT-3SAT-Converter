@@ -3,6 +3,7 @@ package ull.alu0100892833.cc.sat3sat;
 import ull.alu0100892833.cc.sat3sat.exceptions.WrongSizeArrayException;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.StringTokenizer;
 
 /**
@@ -65,27 +66,36 @@ public class SATClause {
     public boolean checkSatisfiability(ArrayList<Boolean> booleanAssign) throws WrongSizeArrayException {
         if (booleanAssign.size() != variables.size())
             throw new WrongSizeArrayException("ERROR - WRONG VALUES ASSIGNATION");
-        return booleanAssign.contains(true);
+        for (int i = 0; i < booleanAssign.size(); i++) {
+            if (((variables.get(i).isNegated()) && (!booleanAssign.get(i)))
+                    || ((!variables.get(i).isNegated()) && (booleanAssign.get(i))))
+                return true;
+        }
+        return false;
     }
 
     public ArrayList<SATClause> transformTo3SAT() {
+        System.out.println("==============");
+        System.out.print("Adapting " + this + " to 3SAT -----> ");
+        ArrayList<SATClause> newC = new ArrayList<>();
         if (variables.size() == 3) {
-            ArrayList<SATClause> newC = new ArrayList<>();
             newC.add(new SATClause(this));
-            return newC;
         } else if (variables.size() == 1) {
-            return transformForK1();
+            newC.addAll(transformForK1());
         } else if (variables.size() == 2) {
-            return transformForK2();
+            newC.addAll(transformForK2());
         } else {
-            return transformForBiggerK();
+            newC.addAll(transformForBiggerK());
         }
+        System.out.println("\t" + newC);
+        System.out.println("==============");
+        return newC;
     }
 
-    private ArrayList<SATClause> transformForK1() {
+    private List<SATClause> transformForK1() {
         SATVariable first = new SATVariable("y_" + newVarCount); newVarCount++;
         SATVariable second = new SATVariable("y_" + newVarCount); newVarCount++;
-        ArrayList<SATClause> newSet = new ArrayList<>();
+        List<SATClause> newSet = new ArrayList<>();
 
         SATClause clause1 = new SATClause(this);
         clause1.addVariable(first);
@@ -110,9 +120,9 @@ public class SATClause {
         return newSet;
     }
 
-    private ArrayList<SATClause> transformForK2() {
+    private List<SATClause> transformForK2() {
         SATVariable newVar = new SATVariable("y_" + newVarCount); newVarCount++;
-        ArrayList<SATClause> newSet = new ArrayList<>();
+        List<SATClause> newSet = new ArrayList<>();
 
         SATClause clause1 = new SATClause(this);
         clause1.addVariable(newVar);
@@ -124,10 +134,10 @@ public class SATClause {
         return newSet;
     }
 
-    private ArrayList<SATClause> transformForBiggerK() {
+    private List<SATClause> transformForBiggerK() {
         int numberOfNewVars = variables.size() - 3;
         SATVariable currentVar = new SATVariable("y_" + newVarCount); newVarCount++;
-        ArrayList<SATClause> newSet = new ArrayList<>();
+        List<SATClause> newSet = new ArrayList<>();
 
         SATClause newClause = new SATClause();
         newClause.addVariable(variables.get(0));
