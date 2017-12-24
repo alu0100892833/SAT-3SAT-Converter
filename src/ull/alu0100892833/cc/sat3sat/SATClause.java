@@ -7,13 +7,23 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * Created by Óscar Darias Plasencia on 23/12/17.
+ * Class to represent a clause in a SAT problem.
+ * It just keeps an ArrayList with all the variables (SATVariable).
+ * Provides all methods needed by a clause, to simplify SAT class design.
+ * @author Óscar Darias Plasencia
+ * @since 23/12/17.
  */
 public class SATClause {
+
+    // this variable is just a counter for the new y variables sub-index.
     public static int newVarCount = 1;
 
     private ArrayList<SATVariable> variables;
 
+    /**
+     * Constructor from a description on a String, like "{...}".
+     * @param definition
+     */
     public SATClause(String definition) {
         variables = new ArrayList<>();
         ArrayList<String> expression = tokenizeExpression(definition.trim());
@@ -26,18 +36,33 @@ public class SATClause {
         return variables;
     }
 
+    /**
+     * Returns the number of elements in the clause.
+     * @return
+     */
     public int getSize() {
         return variables.size();
     }
 
+    /**
+     * Constructor without arguments.
+     */
     public SATClause() {
         variables = new ArrayList<>();
     }
 
+    /**
+     * Adds a new variable (SATVariable) to the clause.
+     * @param var
+     */
     public void addVariable(SATVariable var) {
         variables.add(var);
     }
 
+    /**
+     * Provides a String representation of the clause.
+     * @return
+     */
     @Override
     public String toString() {
         String output = "{";
@@ -50,11 +75,20 @@ public class SATClause {
         return output;
     }
 
-
+    /**
+     * Copy constructor.
+     * @param copy
+     */
     public SATClause(SATClause copy) {
         this.variables = new ArrayList<>(copy.variables);
     }
 
+    /**
+     * Method to tokenize a clause description String and store by pieces on an ArrayList.
+     * This way it is easier to process.
+     * @param exp
+     * @return
+     */
     private ArrayList<String> tokenizeExpression(String exp) {
         ArrayList<String> tokenized = new ArrayList<>();
         StringTokenizer str = new StringTokenizer(exp, " {,=}");
@@ -63,6 +97,13 @@ public class SATClause {
         return tokenized;
     }
 
+    /**
+     * Checks whether or not a boolean assignation satisfies the clause.
+     * In other words, it checks if at least one variable is going to have the value true.
+     * @param booleanAssign
+     * @return
+     * @throws WrongSizeArrayException
+     */
     public boolean checkSatisfiability(ArrayList<Boolean> booleanAssign) throws WrongSizeArrayException {
         if (booleanAssign.size() != variables.size())
             throw new WrongSizeArrayException("ERROR - WRONG VALUES ASSIGNATION");
@@ -74,6 +115,10 @@ public class SATClause {
         return false;
     }
 
+    /**
+     * Method for adapting the clause for a 3SAT problem.
+     * @return ArrayList with all the clauses adapted. Represents the equivalent C'j set.
+     */
     public ArrayList<SATClause> transformTo3SAT() {
         System.out.println("==============");
         System.out.print("Adapting " + this + " to 3SAT -----> ");
@@ -92,6 +137,10 @@ public class SATClause {
         return newC;
     }
 
+    /**
+     * Generates the four clauses adapted for 3SAT from a |c_i| = 1 clause.
+     * @return C'_j set.
+     */
     private List<SATClause> transformForK1() {
         SATVariable first = new SATVariable("y_" + newVarCount); newVarCount++;
         SATVariable second = new SATVariable("y_" + newVarCount); newVarCount++;
@@ -120,6 +169,10 @@ public class SATClause {
         return newSet;
     }
 
+    /**
+     * Generates the two clauses adapted for 3SAT from a |c_i| = 2 clause.
+     * @return C'_j set.
+     */
     private List<SATClause> transformForK2() {
         SATVariable newVar = new SATVariable("y_" + newVarCount); newVarCount++;
         List<SATClause> newSet = new ArrayList<>();
@@ -134,6 +187,10 @@ public class SATClause {
         return newSet;
     }
 
+    /**
+     * Generates the C'_j, adapted for 3SAT and from a |c_i| > 3 clause.
+     * @return C'_j set.
+     */
     private List<SATClause> transformForBiggerK() {
         int numberOfNewVars = variables.size() - 3;
         SATVariable currentVar = new SATVariable("y_" + newVarCount); newVarCount++;

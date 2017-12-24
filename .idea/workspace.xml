@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="593cc6df-eee7-4d77-a4bd-1c60fff1a823" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
@@ -31,22 +31,24 @@
       <file leaf-file-name="SATVariable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="846">
+              <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SATClause.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SATClause.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1276#1277#0" expanded="true" />
+                <element signature="e#2064#2065#0" expanded="true" />
+                <element signature="e#2128#2129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,14 +57,14 @@
       <file leaf-file-name="SAT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="1206">
+              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
-                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1825#1826#0" expanded="true" />
+                <element signature="e#1855#1856#0" expanded="true" />
+                <element signature="e#1914#1915#0" expanded="true" />
+                <element signature="e#1943#1944#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +73,8 @@
       <file leaf-file-name="SAT3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            <state relative-caret-position="612">
+              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +103,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/exceptions/WrongSizeArrayException.java" />
-        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java" />
-        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java" />
-        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java" />
-        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java" />
         <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java" />
+        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java" />
+        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java" />
+        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java" />
+        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java" />
       </list>
     </option>
   </component>
@@ -586,7 +588,7 @@
       <workItem from="1514047452846" duration="5814000" />
       <workItem from="1514054801698" duration="26000" />
       <workItem from="1514066837486" duration="1897000" />
-      <workItem from="1514110489373" duration="2431000" />
+      <workItem from="1514110489373" duration="3430000" />
     </task>
     <task id="LOCAL-00001" summary="All basic code written. Need to try it.">
       <created>1514068710987</created>
@@ -595,11 +597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514068710987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Everything works well.">
+      <created>1514113943926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514113943926</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10168000" />
+    <option name="totallyTimeSpent" value="11167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -644,7 +653,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All basic code written. Need to try it." />
-    <option name="LAST_COMMIT_MESSAGE" value="All basic code written. Need to try it." />
+    <MESSAGE value="Everything works well." />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything works well." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -673,8 +683,10 @@
           <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,10 +697,10 @@
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -725,8 +737,10 @@
           <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -753,8 +767,10 @@
           <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -772,55 +788,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

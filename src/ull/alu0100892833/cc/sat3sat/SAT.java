@@ -5,19 +5,28 @@ import java.util.HashSet;
 import java.util.StringTokenizer;
 
 /**
- * Created by Óscar Darias Plasencia on 23/12/17.
+ * Class to represent an instance of a SAT problem.
+ * @author Óscar Darias Plasencia
+ * @since 23/12/17.
  */
 public class SAT {
 
     private String identifier;
     private ArrayList<SATClause> clauses;
 
+    /**
+     * Constructor without arguments.
+     */
     public SAT() {
         identifier = "";
         clauses = new ArrayList<>();
         SATClause.resetNewVarCount();
     }
 
+    /**
+     * Constructor from a description.
+     * @param description String like "ID = {...}"
+     */
     public SAT(String description) {
         SATClause.resetNewVarCount();
         clauses = new ArrayList<>();
@@ -27,6 +36,12 @@ public class SAT {
             clauses.add(new SATClause("{" + expression.get(iterator) + "}"));
     }
 
+    /**
+     * Method to tokenize a SAT description String and store by pieces on an ArrayList.
+     * This way it is easier to process.
+     * @param description
+     * @return
+     */
     private ArrayList<String> tokenizeExpression(String description) {
         ArrayList<String> tokenized = new ArrayList<>();
         StringTokenizer str = new StringTokenizer(description, "{=}^");
@@ -54,6 +69,11 @@ public class SAT {
         clauses = set;
     }
 
+    /**
+     * Generates and returns a String with all the variables of the problem.
+     * This String will be like "U = {z1, z2, z3... zn}"
+     * @return
+     */
     public String getUSet() {
         HashSet<String> uSet = new HashSet<>();
         for (SATClause temp : clauses) {
@@ -70,6 +90,10 @@ public class SAT {
         return output;
     }
 
+    /**
+     * Returns a representation of the problem on a String object.
+     * @return
+     */
     @Override
     public String toString() {
         String output = identifier + " = ";
