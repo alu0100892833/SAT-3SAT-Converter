@@ -29,17 +29,17 @@ class SATVariable {
         return symbol;
     }
 
-    public void setSymbol(String symbol) {
+    /*public void setSymbol(String symbol) {
         this.symbol = symbol;
-    }
+    }*/
 
     public boolean isNegated() {
         return negated;
     }
 
-    public void setNegated(boolean negated) {
+    /*public void setNegated(boolean negated) {
         this.negated = negated;
-    }
+    }*/
 
     /**
      * Returns the complementary variable (the same but negated).
@@ -59,8 +59,8 @@ class SATVariable {
     @Override
     public String toString() {
         if (negated)
-            return "¬" + symbol;
+            return "¬" + symbol.trim();
         else
-            return symbol;
+            return symbol.trim();
     }
 }

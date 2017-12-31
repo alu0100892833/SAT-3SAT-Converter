@@ -120,8 +120,7 @@ public class SATClause {
      * @return ArrayList with all the clauses adapted. Represents the equivalent C'j set.
      */
     public ArrayList<SATClause> transformTo3SAT() {
-        System.out.println("==============");
-        System.out.print("Adapting " + this + " to 3SAT -----> ");
+        System.out.print(this + " to 3SAT =====> ");
         ArrayList<SATClause> newC = new ArrayList<>();
         if (variables.size() == 3) {
             newC.add(new SATClause(this));
@@ -133,7 +132,6 @@ public class SATClause {
             newC.addAll(transformForBiggerK());
         }
         System.out.println("\t" + newC);
-        System.out.println("==============");
         return newC;
     }
 

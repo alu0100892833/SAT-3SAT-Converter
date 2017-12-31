@@ -13,6 +13,7 @@ public class SAT3 extends SAT {
     /**
      * Constructor without arguments.
      */
+    @Deprecated
     public SAT3() {
         super();
     }
@@ -21,6 +22,7 @@ public class SAT3 extends SAT {
      * Constructor providing a description.
      * @param description String like "ID = {....}"
      */
+    @Deprecated
     public SAT3(String description) {
         super(description);
         for (SATClause temp : getClauses()) {
@@ -39,7 +41,7 @@ public class SAT3 extends SAT {
      */
     public SAT3 (SAT transform) {
         super();
-        this.setIdentifier(transform.getIdentifier());
+        this.setIdentifier(transform.getIdentifier().trim() + "'");
         ArrayList<SATClause> adapted = new ArrayList<>();
         for (SATClause temp : transform.getClauses())
             adapted.addAll(temp.transformTo3SAT());

@@ -31,7 +31,7 @@ public class SAT {
         SATClause.resetNewVarCount();
         clauses = new ArrayList<>();
         ArrayList<String> expression = tokenizeExpression(description);
-        identifier = expression.get(0);
+        identifier = expression.get(0).trim();
         for (int iterator = 1; iterator < expression.size(); iterator++)
             clauses.add(new SATClause("{" + expression.get(iterator) + "}"));
     }
@@ -44,7 +44,7 @@ public class SAT {
      */
     private ArrayList<String> tokenizeExpression(String description) {
         ArrayList<String> tokenized = new ArrayList<>();
-        StringTokenizer str = new StringTokenizer(description, "{=}^");
+        StringTokenizer str = new StringTokenizer(description, "{=}^∧");
         while (str.hasMoreElements()) {
             String element = (String) str.nextElement();
             if (!element.trim().equals(""))

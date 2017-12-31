@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593cc6df-eee7-4d77-a4bd-1c60fff1a823" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/ejemplos.sat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java" afterPath="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java" />
@@ -21,8 +23,20 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="630">
+              <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ejemplos.sat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/files/ejemplos.sat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -31,24 +45,20 @@
       <file leaf-file-name="SATVariable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+            <state relative-caret-position="594">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SATClause.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SATClause.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="-1069">
+              <caret line="122" column="50" lean-forward="false" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
-                <element signature="e#1276#1277#0" expanded="true" />
-                <element signature="e#2064#2065#0" expanded="true" />
-                <element signature="e#2128#2129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,14 +67,10 @@
       <file leaf-file-name="SAT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1206">
-              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+            <state relative-caret-position="684">
+              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1855#1856#0" expanded="true" />
-                <element signature="e#1914#1915#0" expanded="true" />
-                <element signature="e#1943#1944#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +79,8 @@
       <file leaf-file-name="SAT3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="504">
+              <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,11 +109,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/exceptions/WrongSizeArrayException.java" />
-        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java" />
-        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java" />
+        <option value="$PROJECT_DIR$/files/ejemplos.sat" />
         <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java" />
-        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java" />
         <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java" />
+        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java" />
+        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java" />
+        <option value="$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java" />
       </list>
     </option>
   </component>
@@ -118,8 +125,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="989" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -136,13 +144,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SAT-3SAT-Converter" type="b2602c69:ProjectViewProjectNode" />
               <item name="SAT-3SAT-Converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAT-3SAT-Converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAT-3SAT-Converter" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SAT-3SAT-Converter" type="b2602c69:ProjectViewProjectNode" />
@@ -168,6 +180,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -192,10 +205,10 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ull.alu0100892833.cc.sat3sat.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="files/ejemplos.sat" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -588,7 +601,8 @@
       <workItem from="1514047452846" duration="5814000" />
       <workItem from="1514054801698" duration="26000" />
       <workItem from="1514066837486" duration="1897000" />
-      <workItem from="1514110489373" duration="3430000" />
+      <workItem from="1514110489373" duration="3466000" />
+      <workItem from="1514716453110" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="All basic code written. Need to try it.">
       <created>1514068710987</created>
@@ -604,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514113943926</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commented everything.">
+      <created>1514114945808</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514114945808</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11167000" />
+    <option name="totallyTimeSpent" value="14112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -616,14 +637,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7330097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38640776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -654,7 +675,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All basic code written. Need to try it." />
     <MESSAGE value="Everything works well." />
-    <option name="LAST_COMMIT_MESSAGE" value="Everything works well." />
+    <MESSAGE value="Commented everything." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented everything." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -663,9 +685,51 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -683,10 +747,6 @@
           <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -697,10 +757,6 @@
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1855#1856#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -719,7 +775,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -737,10 +795,6 @@
           <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,7 +803,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,10 +823,6 @@
           <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -790,16 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="630">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -808,37 +852,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATVariable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        <state relative-caret-position="594">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1855#1856#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SATClause.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="-1069">
+          <caret line="122" column="50" lean-forward="false" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ull/alu0100892833/cc/sat3sat/SAT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/ejemplos.sat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
